@@ -1,0 +1,16 @@
+Variables: 
+Las variables son espacios en memoria que almacenan un valor declarado, su valor puede cambiar en cualquier parte de la ejecución del programa. 
+
+Strings: 
+Cadenas de caracteres que se representa por comillas "" ''.
+
+Funciones (argumentos, return):
+Son bloques de código que se ejecutan al ser invocadas, las funciones pueden recibir de cero a más argumentos, los cuales son utilizados 
+dentro de la función, return es el que nos permite retornar un valor fuera de la función y que pueda ser accedido.
+
+Declaraciones if:
+Una sentencia if, es utilizada para el control de flujo en el código y se ejecuta cuando su condición es verdadera, ejecutando todo lo que contiene
+en el bloque, si la condición es falsa, este código se omite y continua la ejecución del código.
+
+Valores booleanos (true, false):
+Los valores booleanos son simplememete un true o false, y nos sirven para poder tener solo dos estados.
