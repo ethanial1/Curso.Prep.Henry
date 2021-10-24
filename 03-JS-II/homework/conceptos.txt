@@ -1,0 +1,16 @@
+Explicación de los conceptos:
+
+for: 
+Es una estructura de repetición (un bucle) que se ejecuta hasta cumplir una condición, este itera sobre sí mismo, pero, en cada iteración va 
+evaluando la condición que lo hace parar, y en base a un incremento en cada ciclo.
+
+Operadores de comparación:
+&&:
+And - Es un operador que dicat que las dos condiciones que se cuentras a la derecha e izquierda deben de ser verdaderas, se evalua de izquierda a derecha y ambas 
+deben de cumplir la condición, si una es false, el operador da false
+
+||:
+OR - Al contrario que and, en or solo una de las condiciones debe de ser verdadera.
+ 
+!:
+NOT - Es usado para negar un boolean, lo que es false con ! es = verdadero, y así con !true = false.

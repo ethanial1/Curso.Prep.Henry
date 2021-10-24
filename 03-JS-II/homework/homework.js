@@ -123,13 +123,15 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  let entero = Math.floor(numero);
+  // let entero = Math.floor(numero);
 
-  if (entero) {
-    return true;
-  }
+  // if (entero) {
+  //   return true;
+  // }
 
-  return false;
+  // return false;
+
+  return numero % 1 === 0;
 
 }
 
@@ -140,13 +142,14 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
   let result1 = numero % 3;
   let result2 = numero % 5;
-  if (!result1){
+
+  if ((!result1 && !result2)) {
+    return "fizzbuzz";
+  } else if (!result1){
     return "fizz";
   } else if (!result2) {
     return "buzz"
-  } else if (!(result1 && result2)) {
-    return "fizzbuzz";
-  }
+  } 
 
   return numero;
 }
@@ -159,14 +162,14 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 
-  if ((num1 > num2 && num1 > num3) && num1 > 0) {
-    return "Número 1 es mayor y positivo";
+  if (num1 === 0 || num2 === 0 || num3 === 0) {
+    return "Error";
   } else if (num1 < 0 || num2 < 0 || num3 < 0) {
     return "Hay negativos";
+  }else if (num1 > num2 && num1 > num3 && num1 > 0) {
+    return "Número 1 es mayor y positivo";
   } else if (num3 > num1 && num3 > num2) {
-    return num3++;
-  } else if (num1 === 0 || num2 === 0 || num3 === 0) {
-    return "Error";
+    return num3+=1;
   }
 
   return false;
@@ -202,7 +205,7 @@ function tablaDelSeis(){
   let lista = [];
   let result = 0;
 
-  for (let i = 0; i <= 60; i++){
+  for (let i = 0; i <= 10; i++){
     result = 6 * i;
     lista.push(result);
   }
@@ -213,7 +216,11 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  return numero.toString().length;
+  if (numero.toString().length === 3) {
+    return true;
+  }
+
+  return false;
 }
 
 function doWhile(numero) {
@@ -225,6 +232,8 @@ function doWhile(numero) {
     numero += 5;
     limite++;
   } while (limite <= 8);
+
+  return numero;
 }
 
 

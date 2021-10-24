@@ -1,0 +1,4 @@
+Array:
+Es una estructura de almacenamiento que contiene una serie de elementos del diferentes tipos o del mismo tipos (esto gracias a que no es tipado).
+Todos sus elementos tienen un orden secuencial el cual comienza en 0, y así incrementa hasta el fin. Una de sus métodos que tiene incorporados es 
+lenght el cual, al igual que String, nos da la longitud del arreglo, una cosa es la longitud y otra los índices del arreglo.
