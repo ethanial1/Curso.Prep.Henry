@@ -1,0 +1,26 @@
+------ Objetos 
+Un objeto es una colección de datos relacionados y/o funcionalidad (que generalmente consta de algunas variables y funciones, que se denominan 
+propiedades y métodos cuando están dentro de objetos), usa una estructura de clave:valor, todas las claves son String, y es posible accede a estas
+mediante 2 notaciones.
+    
+
+------ Propiedades:
+El nombre de una propiedad puede ser una cadena de caracteres, incluso una vacía. El valor de la propiedad puede ser cualquier valor 
+que podamos utilizar en JavaScript, excepto undefined. Y estos describen al objeto.
+
+
+------- Métodos:
+Son acciones que el objeto puede realizar, un método puede ser declarado dentro de una propiedad, así de esta forma es posible acceder a este 
+en base a una notación. Los métodos generalmente describen alguna acción propia del objeto, como por ejemplo, objeto.saludar();
+
+------- Bucle for…in:
+La forma de poder acceder a un objeto de forma iterativa es mediante el uso de un bucle, pero el buche tradicional de JavaScript no funciona con 
+objetos, debido a que la llave de un objeto es String, para eso usamos el bucle for..in y la notación de corchetes, mediante este bucle es posible
+iterar dentro del objeto.
+
+------- Notación de puntos vs notación de corchetes
+Notación de corchetes:: 
+    Es posible acceder a los valores por medio de los corchetes. objeto['propiedad'] // objeto[variable]
+Notación de punto::
+    Una forma más fácil es la notación de punto, en esta solo es posible acceder con el nombre correcto de cada propiedad,
+    si la propiedad no existe, retorna undefinided  objeto.propiedad 
