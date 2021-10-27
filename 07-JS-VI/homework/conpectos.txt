@@ -1,0 +1,4 @@
+Funciones Callback:
+Estas funciones pueden llamarse en cualquier momento y pasar argumentos dentro de la función. Puede ser pasada como parámetro pero sin
+parentesis.
+Un callback (llamada de vuelta) es una función que recibe como argumento otra función y la ejecuta.
