@@ -1,0 +1,17 @@
+h1 {
+    color: turquoise;
+}
+img{
+    width: 400px;
+}
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    border: 5px solid #000;
+    background: brown;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
